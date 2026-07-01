@@ -8,7 +8,7 @@ def main():
     )
 
     messages1 = [
-        {'role':'system', 'content':'You are a maths teacher. You must ask simple maths question. Review the answers provided, give feedback and move on to th enetx question.'},
+        {'role':'system', 'content':'You are a maths teacher. You must ask simple maths question. Review the answers provided, give feedback and move on to the next question.'},
     ]
 
     messages2 = [
@@ -43,14 +43,11 @@ def main():
 
         print(f"LLM{num} replied :{ai_response}\n\n")
 
-
     loop = 0
     while loop < 10:
         interact_with_llm(1,messages1)
         interact_with_llm(2,messages2)
         loop+=1
-
-
 
 if __name__ == "__main__":
     main()

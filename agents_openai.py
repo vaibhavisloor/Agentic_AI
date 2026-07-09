@@ -11,7 +11,7 @@ set_tracing_disabled(False)
 
 gemini_client = AsyncOpenAI(
     api_key=os.getenv("GEMINI_API_KEY"),
-    base_url="https://generativelanguage.googleapis.com/v1beta/openai/",
+    base_url="https://generativelanguage.googleapis.com/v1beta/openai/"
 )
 
 model = OpenAIChatCompletionsModel(

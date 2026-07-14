@@ -10,6 +10,7 @@ dependencies = [
     "autogen-agentchat>=0.4.9.2",
     "autogen-ext[grpc,mcp,ollama,openai]>=0.4.9.2",
     "bs4>=0.0.2",
+    "ddgs>=9.14.4",
     "dotenv>=0.9.9",
     "google-genai>=2.8.0",
     "gradio>=5.22.0",
